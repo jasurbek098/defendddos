@@ -1,12 +1,12 @@
 {
-  "name": "server-ultimate-secure",
+  "name": "ddos-protection-server",
   "version": "1.0.0",
-  "description": "Standalone Node.js server with multi-layer DDoS protections",
+  "description": "DDoS protection server with Proof-of-Work",
   "main": "server_ultimate_secure.js",
   "scripts": {
     "start": "node server_ultimate_secure.js"
   },
   "engines": {
-    "node": "18.x || 20.x"
+    "node": ">=18.0.0"
   }
 }
