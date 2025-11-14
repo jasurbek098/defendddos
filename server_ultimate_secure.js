@@ -349,7 +349,7 @@ function htmlChallengePage(difficulty, cookieValue) {
 </head>
 <body>
   <div class="card">
-    <h1>|CYBERSECURITY|</h1>
+    <h1>CYBERSECURITY</h1>
     <p>Для доступа требуется небольшая задача Proof-of-Work — быстро для людей, дорого для массовых ботов.</p>
     <div id="status" class="status">Загрузка задачи...</div>
     <div style="margin-top:12px"><button id="retry">Попробовать снова</button> <span class="small">Поддержка: modern browser</span></div>
@@ -816,4 +816,5 @@ process.on('SIGINT', gracefulShutdown);
 process.on('SIGTERM', gracefulShutdown);
 
 log('Server loaded: full handler active. Server ready.');
+
 
